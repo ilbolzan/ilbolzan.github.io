@@ -1,6 +1,6 @@
 # nodeJS-image-upload
 
-Simple NodeJS Express Program get files as input from user and upload it to the server. 
+Simple NodeJS Express Program who take a picture and send to server. 
 
 To install necessary packages and start the server: 
     
