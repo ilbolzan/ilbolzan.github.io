@@ -17,11 +17,12 @@ canvas.height = 360;
 
 const button = document.querySelector('button');
 button.onclick = function() {
-  base64.innerText = canvas.toDataURL('image/png');
+
+  
   canvas.width = video.videoWidth;
   canvas.height = video.videoHeight;
   canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
-
+  base64.innerText = canvas.toDataURL('image/png');
 };
 
 const constraints = {
